@@ -1,0 +1,16 @@
+{
+  "name": "@bto-ui-store/products",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "sirv dist --port 5001",
+    "build": "qoi build --emptyOutDir --preset vue --external @vue/reactivity,koala-store,redux",
+    "bundle": "aria-build -f es --external @vue/reactivity,koala-store,redux",
+    "bundle:umd": "aria-build -f umd --name productsStore --compress --swc",
+    "bundle:es": "aria-build -f es --resolve --compress --swc"
+  },
+  "keywords": [],
+  "author": "Arjay Elbore <aelbore.sg@gmail.com>",
+  "license": "MIT"
+}

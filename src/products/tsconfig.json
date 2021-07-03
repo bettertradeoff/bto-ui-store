@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@bto-ui/shared": [ "../../bto-ui-shared/src/index.ts" ],
+      "@bto-ui-store/types": [ "./types/src/index.ts" ]
+    }
+  }
+}
